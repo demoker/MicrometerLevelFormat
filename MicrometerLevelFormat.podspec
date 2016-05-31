@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
     s.authors      = {'demoker' => 'mdk132@qq.com'}
     s.platform     = :ios, '7.0'
     s.source       = {:git => 'https://github.com/demoker/MicrometerLevelFormat.git', :tag => s.version}
-    s.source_files = 'UITextField+MicrometerLevelFormat/**/*.{h,m}'
+    s.source_files = 'MicrometerLevelFormat','MicrometerLevelFormat/class/*.{h,m}'
     s.requires_arc = true
 end
