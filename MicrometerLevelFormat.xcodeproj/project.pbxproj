@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584E433A1CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 584E43391CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.m */; };
 		58A7DAB21C9819E8008B867D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DAB11C9819E8008B867D /* main.m */; };
 		58A7DAB51C9819E8008B867D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DAB41C9819E8008B867D /* AppDelegate.m */; };
 		58A7DAB81C9819E8008B867D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DAB71C9819E8008B867D /* ViewController.m */; };
 		58A7DABB1C9819E8008B867D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A7DAB91C9819E8008B867D /* Main.storyboard */; };
 		58A7DABD1C9819E8008B867D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A7DABC1C9819E8008B867D /* Assets.xcassets */; };
 		58A7DAC01C9819E8008B867D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A7DABE1C9819E8008B867D /* LaunchScreen.storyboard */; };
-		58A7DAC91C981AA4008B867D /* UITextField+MicrometerLevelFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A7DAC81C981AA4008B867D /* UITextField+MicrometerLevelFormat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		584E43381CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+MicrometerLevelFormat.h"; sourceTree = "<group>"; };
+		584E43391CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+MicrometerLevelFormat.m"; sourceTree = "<group>"; };
 		58A7DAAD1C9819E8008B867D /* MicrometerLevelFormat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrometerLevelFormat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A7DAB11C9819E8008B867D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A7DAB31C9819E8008B867D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		58A7DABC1C9819E8008B867D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58A7DABF1C9819E8008B867D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58A7DAC11C9819E8008B867D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58A7DAC71C981AA4008B867D /* UITextField+MicrometerLevelFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+MicrometerLevelFormat.h"; path = "../UITextField+MicrometerLevelFormat.h"; sourceTree = "<group>"; };
-		58A7DAC81C981AA4008B867D /* UITextField+MicrometerLevelFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+MicrometerLevelFormat.m"; path = "../UITextField+MicrometerLevelFormat.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584E43371CFD88D9000E2748 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				584E43381CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.h */,
+				584E43391CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
 		58A7DAA41C9819E8008B867D = {
 			isa = PBXGroup;
 			children = (
@@ -61,8 +70,7 @@
 		58A7DAAF1C9819E8008B867D /* MicrometerLevelFormat */ = {
 			isa = PBXGroup;
 			children = (
-				58A7DAC71C981AA4008B867D /* UITextField+MicrometerLevelFormat.h */,
-				58A7DAC81C981AA4008B867D /* UITextField+MicrometerLevelFormat.m */,
+				584E43371CFD88D9000E2748 /* class */,
 				58A7DAB31C9819E8008B867D /* AppDelegate.h */,
 				58A7DAB41C9819E8008B867D /* AppDelegate.m */,
 				58A7DAB61C9819E8008B867D /* ViewController.h */,
@@ -154,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58A7DAC91C981AA4008B867D /* UITextField+MicrometerLevelFormat.m in Sources */,
+				584E433A1CFD88D9000E2748 /* UITextField+MicrometerLevelFormat.m in Sources */,
 				58A7DAB81C9819E8008B867D /* ViewController.m in Sources */,
 				58A7DAB51C9819E8008B867D /* AppDelegate.m in Sources */,
 				58A7DAB21C9819E8008B867D /* main.m in Sources */,
