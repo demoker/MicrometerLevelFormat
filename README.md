@@ -1,7 +1,10 @@
 # MicrometerLevelFormat
+
 ##概述：
 MicrometerLevelFormat是一个对于UITextField实现的数字千分位功能的类别。
-![mi](media/14617451120116/mic.gif)￼
+
+##图例：
+![mi](https://raw.githubusercontent.com/demoker/MicrometerLevelFormat/master/mic.gif)
 
 ##使用方法：
 1.添加UITextField+MicrometerLevelFormat到项目工程
@@ -17,3 +20,7 @@ MicrometerLevelFormat是一个对于UITextField实现的数字千分位功能的
 备注：textfiled的键盘类型必须是数字键盘，因为这里千分位的功能只对数字起作用。😁😁😁
 
 _欢迎大家使用哟！多交流_  附上本人QQ：909352358
+
+
+
+
